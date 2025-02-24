@@ -23,8 +23,8 @@ Visualization and analysis of Jira metrics using Shewhart control charts. This t
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Alexandrshy/jira-control-charts.git
-cd jira-control-charts
+git clone https://github.com/Alexandrshy/jira-metrics.git
+cd jira-metrics
 ```
 
 2. Install dependencies:
@@ -68,9 +68,11 @@ npm run dev
 ## Metrics
 
 ### Bug Density
+
 Percentage of bugs among total closed tasks per week. Helps track development quality.
 
 ### Velocity
+
 Number of closed tasks per week. Helps track team productivity.
 
 ## Control Limits
